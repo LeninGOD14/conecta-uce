@@ -5,7 +5,7 @@ spring:
   application:
     name: conectauce-api
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/conectauce}
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/conectauce}
     username: ${DB_USER:conectauce}
     password: ${DB_PASSWORD:conectauce_local_dev}
   jpa:
